@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Sign Up Form</title>
+    <link rel="shortcut icon" href="/assests/favicon.ico">
+    <link rel="stylesheet" href="login1.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="form__title">CHATBOT</h1>
+        <form class="form" id="Login">
+            <h1 class="form__title">LOGIN</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input"  id="email" autofocus placeholder="Username or Email"> 
+            </div>
+
+
+            <div class="form__input-group">
+                <input type="Password" class="form__input" id="password" Sautofocus placeholder="Password"> 
+            </div>
+
+
+            <button class="form__button" type="Submit" onclick="location.href='///C:/Users/Akash/OneDrive/Desktop/CHATBOT/chat.html'">SUBMIT</button>
+
+
+            
+
+
+            <p class="form__text">
+                <a href="$" class="form__link">Forgot Your Password?</a>
+            </p>
+
+
+            <p class="form__text">
+                <a  class="form__link" href="$" id="linkCreateAccount">Dont Have An Account? Create New Account</a>
+            </p>
+        </form>
+
+
+        
+
+
+        <form class="form form--hidden" id="CreateAccount">
+            <h1 class="form__title">CreateAccount</h1>
+            <div class="form__input-group">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username"> 
+            </div>
+
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Email Address"> 
+            </div>
+
+
+            <div class="form__input-group">
+                <input type="Password" class="form__input" autofocus placeholder="Password"> 
+            </div>
+
+
+            <div class="form__input-group">
+                <input type="Password" class="form__input" autofocus placeholder="Confirm Password"> 
+            </div>
+
+
+            <button class="form__button" type="Submit">SUBMIT</button>
+
+            <p class="form__text">
+                <a  class="form__link" href="$" id="linkLogin">Already Have An Account? Sign In</a>
+            </p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
